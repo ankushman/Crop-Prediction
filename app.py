@@ -51,12 +51,5 @@ if st.button("Predict"):
 # -----------------------------
 # OPTIONAL: SHOW DATASET
 # -----------------------------
-st.subheader("Dataset Preview")
 
-if st.button("Show Dataset"):
-    df = kagglehub.load_dataset(
-        KaggleDatasetAdapter.PANDAS,
-        "wisam1985/advanced-iot-agriculture-2024",
-        "Advanced_IoT_Dataset.csv"
-    )
-    st.dataframe(df.head())
+  
