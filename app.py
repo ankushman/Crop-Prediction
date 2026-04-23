@@ -14,7 +14,7 @@ with open("model1.pkl", "rb") as f:
 # -----------------------------
 # TITLE
 # -----------------------------
-st.title("🌱 Smart Agriculture Prediction App")
+st.title(" Smart Agriculture Prediction App")
 
 st.write("Enter input values to predict output")
 
